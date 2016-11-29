@@ -18,7 +18,7 @@ function parseBody(body) {
 function extractInfos(element) {
   const list = element('.lister-list tr')
   const data = []
-  if (!list.length) return titles
+  if (!list.length) return data
   list.each(function() {
     data.push({
       title:  element(this).find('.titleColumn a').text().trim(),
