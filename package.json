@@ -1,0 +1,30 @@
+{
+  "name": "node-imdb-crawler",
+  "version": "1.0.0",
+  "description": "Node IMDB Crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeBarrosCruz/node-imdb-crawler.git"
+  },
+  "keywords": [
+    "node",
+    "imdb",
+    "crawler",
+    "request",
+    "cheerio"
+  ],
+  "author": "FelipeBarrosCruz <felipe.barros.pt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelipeBarrosCruz/node-imdb-crawler/issues"
+  },
+  "homepage": "https://github.com/FelipeBarrosCruz/node-imdb-crawler#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  }
+}
